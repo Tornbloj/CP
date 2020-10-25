@@ -24,10 +24,23 @@ body{
     border-color: coral;
 }
 </style>
+
+<script>
+    function getResolution() {
+        alert("Your screen resolution is: " + screen.width + "x" + screen.height);
+    }
+    </script>
+    
+
+
 </head>
 <body>
 
-<div class="overlay"></div>
+<div class="overlay">
+  
+   <button type="button" onclick="getResolution();">Get Resolution</button>
+  
+</div>
 </body>
 </html>
 
